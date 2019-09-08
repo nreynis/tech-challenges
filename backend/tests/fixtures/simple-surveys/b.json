@@ -1,0 +1,22 @@
+{
+  "survey": {
+    "name": "Survey B",
+    "code": "SB"
+  },
+  "questions": [{
+    "type": "qcm",
+    "label": "Question 1?",
+    "options": ["Option 1", "Option 2", "Option 3"],
+    "answer": [true, false, false]
+  }, {
+    "type": "numeric",
+    "label": "Question 2?",
+    "options": null,
+    "answer": 18
+  }, {
+    "type": "date",
+    "label": "Question 3?",
+    "options": null,
+    "answer": "2019-09-07T16:04:50.000Z"
+  }]
+}

@@ -1,11 +1,14 @@
 {
     "require": {
         "php": ">=7.0",
-        "silex/silex": "^2.0"
+        "silex/silex": "^2.0",
+        "cocur/chain": "^0.7.0",
+        "symfony/finder": "^4.3"
     },
     "autoload": {
         "psr-4": {
-            "IWD\\JOBINTERVIEW\\": "src/"
+            "IWD\\JOBINTERVIEW\\": "src/",
+            "IWD\\JOBINTERVIEW\\Tests\\": "tests/"
         }
     },
     "require-dev": {
